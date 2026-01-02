@@ -1,4 +1,4 @@
-## Query to Filter ONLY Primary-Key Indexes on Partitions
+## Query to filter ONLY Primary-Key Indexes on Partitions
 ```
 SELECT
     child.relname AS partition_name,
