@@ -1,3 +1,4 @@
+```
 SELECT pid,
        usename,
        now()-query_start AS blocking_time,
