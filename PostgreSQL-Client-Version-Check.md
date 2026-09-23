@@ -76,9 +76,9 @@ Run backup using the PostgreSQL 14 binary:
 -p 5432 \
 -U <username> \
 -d <database> \
--t public.tbl_amzn_ams_hourly_bidding_default \
+-t <schema>.<table> \
 -F c \
--f backup.dump
+-f backup.sql
 ```
 
 ## Notes
